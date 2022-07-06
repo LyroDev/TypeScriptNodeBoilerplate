@@ -1,24 +1,21 @@
 {
-  "name": "csgembot",
+  "name": "typescriptnodeboilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/app.ts",
-    "prod": "ts-node src/app.ts",
-    "build": "tsc src/app.ts"
+    "node": "ts-node src/app.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LyroDev/csgembot.git"
+    "url": "git+https://github.com/LyroDev/TypeScriptNodeBoilerplate.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LyroDev/csgembot/issues"
+  "dependencies": {
+
   },
-  "homepage": "https://github.com/LyroDev/csgembot#readme",
-  "dependencies": {},
   "devDependencies": {
     "@types/node": "^18.0.1",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
