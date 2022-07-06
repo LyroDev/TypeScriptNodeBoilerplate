@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "module": "commonJS",
+    "target": "ES6",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2015"],
+    "strict": true,
+    "paths": {
+      "@interfaces/*": ["./src/interfaces/*"],
+      "@tools/*": ["./src/tools/*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}
